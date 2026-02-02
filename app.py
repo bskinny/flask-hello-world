@@ -6,5 +6,5 @@ def hello_world():
     return 'Hello, World!'
 
 @app.route('/health')
-def hello_world():
+def health():
     return 'UP!'
